@@ -4,3 +4,4 @@ set -e
 set -x
 
 yes | sudo pacman -Scc
+sudo fstrim /
